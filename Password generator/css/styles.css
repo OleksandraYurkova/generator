@@ -1,0 +1,74 @@
+body{
+    background-color:#333D5C; ;
+}
+/* main-text */
+.password-item{
+    font-family: 'Montserrat';
+font-style: normal;
+width: 506px;
+font-size: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+.coment{
+    font-family: 'Montserrat';
+    width: 684px;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+color: #FFFFFF;
+}
+/* password-field */
+.password-field{
+    width: 489px;
+height: 65px;
+left: 475px;
+top: 407px;
+
+background: #697597;
+}
+/* length */
+.length{
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.length-item{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* parameters */
+.parameters-1,.parameters-2,.parameters-3,.parameters-4{
+    font-family: 'Average Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.checkbox-input{
+    background: #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* button */
+.btn{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.button{
+    box-sizing: border-box;
+width: 306px;
+height: 45px;
+
+background: linear-gradient(90.04deg, rgba(148, 127, 238, 0.17) -1.6%, rgba(90, 200, 250, 0.8) 70%);
+border: 1px solid rgba(0, 0, 0, 0.15);}
