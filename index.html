@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  
     <title>Password generator</title>
   </head>
   <body>
@@ -35,8 +35,8 @@
             max="15"
             ,step="1"
             ,class="length-item"
-          />
-        </p>
+           />
+         </p>
       </div>
       <!-- parameters -->
       <div>
@@ -49,17 +49,18 @@
           <label for="ABC" class="checkbox-label">abc</label>
         </div>
         <div class="parameters-3">
-          <input type="checkbox" id="123" class="checkbox-input" />
+          <input type="checkbox" id="num123" class="checkbox-input" />
           <label for="ABC" class="checkbox-label">123</label>
         </div>
         <div class="parameters-4">
-          <input type="checkbox" id="#!%" class="checkbox-input" />
+          <input type="checkbox" id="symbols" class="checkbox-input" />
           <label for="ABC" class="checkbox-label">#!%</label>
         </div>
       </div>
       <!-- button -->
       <div>
-        <button class="btn">Get password</button>
+        <button class="btn" id="button" >Get password</button>
+        <script src="1.js"></script>
         <p class="bye">Thank you for choosing us</p>
       </div>
     </div>
