@@ -1,0 +1,180 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.left-side {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.object {
+  margin: 0 auto;
+}
+/* Головний текст  */
+.first-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #efbc2d;
+  margin-bottom: 12px;
+}
+
+.second-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 12px;
+}
+/* Вікно паролю */
+.password-field {
+  width: 170px;
+  height: 250px;
+  background: #2e2e2c;
+  border: 2px solid #efbc2d;
+  margin-top: 25px;
+  padding-right: 12px;
+}
+/* Довжина паролю */
+.length-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.length-window {
+  width: 50px;
+  height: 18px;
+  background: #efbc2d;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 16px;
+}
+.item {
+  margin-top: -234px;
+  margin-left: -26px;
+  margin-bottom: 12px;
+}
+/* Параметри паролю */
+.parameters,
+.parameters1,
+.parameters2,
+.parameters3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-left: -26px;
+}
+.distance,
+.distance2,
+.distance3,
+.distance {
+  margin-bottom: 12px;
+}
+
+/* Перемикач */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 16px;
+  margin-left: 8px;
+}
+.toggle-switch-track {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 10px;
+  background: #2e2e2c;
+  border: 0.5px solid #efbc2d;
+  border-radius: 90px;
+}
+.toggle-switch-thumb {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  border: 0.5px solid #000000;
+}
+/* активний перемикач  */
+.toggle-switch-track-active {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 10px;
+  background: #efbc2d;
+  border: 0.5px solid #000000;
+  border-radius: 90px;
+} /* активний перемикач  */
+.toggle-switch-thumb-active {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  border: 0.5px solid #000000;
+}
+.toggle-switch1 {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 16px;
+  margin-left: 15px;
+}
+.toggle-switch2 {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 16px;
+  margin-left: 20px;
+}
+.toggle-switch3 {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 16px;
+  margin-left: 15px;
+}
+/* Кнопка */
+.btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+button {
+  width: 306px;
+  height: 45px;
+  background: #efbc2d;
+  border: 1px solid #000000;
+  margin-left: -100px;
+  margin-top: 12px;
+}
