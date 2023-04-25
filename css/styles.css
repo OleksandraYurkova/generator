@@ -95,7 +95,7 @@ body {
 /* Перемикач */
 
 .switch {
-  margin-left: 14px;
+  margin-left: 15px;
   position: relative;
   display: inline-block;
   width: 50px;
@@ -109,7 +109,7 @@ body {
   height: 24px;
 }
 .switch2 {
-  margin-left: 26px;
+  margin-left: 25px;
   position: relative;
   display: inline-block;
   width: 50px;

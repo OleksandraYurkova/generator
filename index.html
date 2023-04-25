@@ -18,10 +18,10 @@
       </div>
       <!-- Вікно паролю -->
       <div class="left-side">
-        <div class="password-generator">
+        <div class="password-generator" id="result">
           <div class="container">
             <div class="password">
-              <div class="password-field"></div>
+              <div class="password-field" id="result"></div>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@
           
           <div class="distance">
             <label class="parameters" for="uppercase">ABC</label>
-            <div class="toggle-switch">
+            <div class="toggle-switch" id="ABC">
               <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
@@ -54,16 +54,17 @@
             <div class="distance2">
               <label class="parameters2" for="lowercase">abc</label>
               <div class="toggle-switch">
-                <label class="switch1">
-                  <input type="checkbox">
+                <label class="switch" id="abc">
+                  <input type="checkbox" id="abc">
+
                   <span class="slider round"></span>
                 </label>
               </div>
             </div>
             <div class="distance3">
               <label class="parameters3" for="symb">123</label>
-              <div class="toggle-switch">
-                <label class="switch2">
+              <div class="toggle-switch" id="num123">
+                <label class="switch">
                   <input type="checkbox">
                   <span class="slider round"></span>
                 </label>
@@ -71,16 +72,24 @@
             </div>
             <div class="distance4">
               <label class="parameters4" for="uppercase">#!%</label>
-              <div class="toggle-switch">
-                <label class="switch3">
+
+              <div class="toggle-switch" id="symbols">
+                <label class="switch">
+
+              <div class="toggle-switch" id="symbols">
+                <label class="switch">
+
                   <input type="checkbox">
                   <span class="slider round"></span>
                 </label>
               </div>
             </div>
-          <!-- Кнопка -->
-          <div class="button"></div>
-            <button class="btn">Get password </button>
+
+        
+
+          <!--Кнопка -->
+          <div class="button" id="button">
+            <button class="btn">Get password</button>
             <script src="1.js"></script>
           </div>
 
