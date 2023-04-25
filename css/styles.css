@@ -73,6 +73,7 @@ body {
 .parameters3,
 .parameters2,
 .parameters {
+  position: relative;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -85,13 +86,37 @@ body {
 .distance2,
 .distance3,
 .distance {
-  margin-bottom: 12px;
-
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+	align-items: center;
 }
 
 /* Перемикач */
 
 .switch {
+  margin-left: 15px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+.switch1 {
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+.switch2 {
+  margin-left: 25px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+.switch3 {
+  margin-left: 20px;
   position: relative;
   display: inline-block;
   width: 50px;
@@ -115,8 +140,8 @@ body {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .5s;
-  transition: .4s;
+  -webkit-transition: 0.5s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -127,8 +152,8 @@ body {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -151,34 +176,8 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-  border-radius: 50%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  border-radius: 50%;
+}
 /* Кнопка */
 .btn {
   font-family: "Montserrat";
