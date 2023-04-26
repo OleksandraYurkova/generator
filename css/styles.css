@@ -1,0 +1,234 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.left-side {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.object {
+  margin: 0 auto;
+}
+/* Головний текст  */
+.first-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #efbc2d;
+  margin-bottom: 12px;
+}
+
+.second-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 12px;
+}
+/* Вікно паролю */
+.password {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.password-field {
+  width: 224px;
+  height: 255px;
+  background: #2e2e2c;
+  border: 2px solid #efbc2d;
+  margin-top: 25px;
+  padding-right: 12px;
+}
+/* Довжина паролю */
+.length-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.length-window {
+  width: 35px;
+  height: 18px;
+  background: #efbc2d;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 58px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.length-window1{
+  width: 35px;
+  height: 18px;
+  background: #efbc2d;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 13px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.item {
+  margin-top: -255px;
+  margin-left: 1px;
+  margin-bottom: 12px;
+}
+.item1{
+  margin-bottom: 15px;
+}
+/* Параметри паролю */
+
+.parameters {
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-left: 1px;
+  display: inline-block;
+}
+
+.distance {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: left;
+  
+}
+
+/* Перемикач */
+
+.switch {
+  margin-left: 15px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+}
+.switch1{
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+}
+.switch2{
+  margin-left: 28px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+}
+.switch3{
+  margin-left: 8px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+}
+
+.my-checkbox {
+  height: auto;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #f3e521;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f3e521;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Кнопка */
+.btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+button {
+  width: 306px;
+  height: 45px;
+  background: #efbc2d;
+  border: 1px solid #000000;
+  margin-top: 80px;
+  margin-left: 20px;
+}
