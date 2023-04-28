@@ -125,11 +125,37 @@ body {
 
 .switch {
   margin-left: 15px;
+
   position: relative;
   display: inline-block;
   width: 50px;
   height: 24px;
   vertical-align: bottom;
+}
+.switch1 {
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+}
+.switch2 {
+  margin-left: 28px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+}
+.switch3 {
+  margin-left: 8px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  vertical-align: bottom;
+
 }
 .switch1 {
   margin-left: 20px;
@@ -230,4 +256,7 @@ button {
   border: 1px solid #000000;
   margin-top: 80px;
   margin-left: 20px;
+
+}
+
 }
