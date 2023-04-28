@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Password generator</title>
+  </head>
+  <body>
+    <div class="object">
+      <!-- Головний текст -->
+      <div>
+        <h1 class="first-text">Password generator</h1>
+        <h2 class="second-text">
+          generate strong passwords to stay safe online
+        </h2>
+      </div>
+      <!-- Вікно паролю -->
+      <div class="left-side">
+        <div class="password-generator">
+          <div class="container">
+            <div class="password">
+              <div class="password-field" id="result"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+        <!-- Довжина паролю -->
+       
+          <div class="item">
+            <label class="length-item">Password length</label>
+            <input
+              class="length-window"
+              type="number"
+              id="length"
+              min="4"
+              max="20"
+              value="20"/>
+          </div>
+          <!-- Кількість паролей -->
+          <div class="item1" >
+            <label class="length-item">Number of passwords</label>
+            <input
+              class="length-window1"
+              type="number"
+              id="amount"
+              min="1"
+              max="10"
+              value="1"/>
+          </div>
+          <!-- Параметри паролю -->
+          
+          <div class="distance">
+            <label class="parameters" for="uppercase">ABC</label>
+            <div class="toggle-switch" id="ABC">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+            <div class="distance">
+              <label class="parameters">abc</label>
+              <div class="toggle-switch" >
+                <label class="switch1" id="abc">
+                  <input type="checkbox" >
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+            <div class="distance">
+              <label class="parameters"  id = "box "for="symb">123</label>
+              <div class="toggle-switch" id="num123">
+                <label class="switch2">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+            <div class="distance">
+              <label class="parameters" for="uppercase">#!%</label>
+              <div class="toggle-switch" id="symbols">
+                <label class="switch3">
+              <div class="toggle-switch" id="symbols">
+                <label class="switch">
+
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          <!--Кнопка -->
+          <div class="button">
+            <button class="btn">Get password</button>
+            <script src="1.js"></script>
+          </div>
+
+    </div>
+  </body>
+</html>
