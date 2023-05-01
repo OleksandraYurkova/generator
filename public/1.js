@@ -62,15 +62,15 @@ function generatePassword() {
 function getRandomItem(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
-// Add event listener for button click
+// додати event listener для button click
 document.querySelector('.btn').addEventListener('click', () => {
     const amount = parseInt(amountInput.value);
     let passwords = "";
 
     for (let j = 0; j < amount; j++) {
         const password = generatePassword();
-        passwords += password + '\n' ;
+        passwords += `<p>${password}</p>`;
     }
     
-    passwordField.textContent = passwords;
+    passwordField.innerHTML = passwords;
 });
